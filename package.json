@@ -1,0 +1,22 @@
+{
+  "name": "semver-suggest",
+  "version": "1.0.0",
+  "description": "Analyze git commit history and suggest the next semantic version bump based on Conventional Commits",
+  "main": "lib/index.js",
+  "bin": {
+    "semver-suggest": "bin/semver-suggest.js"
+  },
+  "scripts": {
+    "test": "node test/run.js"
+  },
+  "keywords": ["semver", "conventional-commits", "versioning", "git", "cli", "semantic-release", "changelog"],
+  "author": "Yonder Zenith LLC",
+  "license": "MIT",
+  "engines": { "node": ">=14" },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yonderzenith/semver-suggest"
+  },
+  "homepage": "https://github.com/yonderzenith/semver-suggest#readme",
+  "bugs": { "url": "https://github.com/yonderzenith/semver-suggest/issues" }
+}
